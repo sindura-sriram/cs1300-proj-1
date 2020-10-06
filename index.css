@@ -1,0 +1,110 @@
+/* Put your style information here! */
+body{
+    height: 450vh;
+    width: 100vh;
+    background-color: #f9fafb;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.wrapper{
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    margin-left: 45%;
+    text-align: center;
+    transform: translateY(-1.5%);
+}
+
+.header{
+    transform: translateY(350%);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.subtitle{
+    transform: translateY(350%);
+    font-size: 16px;
+    margin-right: 150px;
+    text-align: right;
+    color: navy;
+}
+
+.questions{
+    text-align: left;
+    color: navy;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.sketch{
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid blue;
+}
+
+.storyboard{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid blue;
+}
+
+figcaption{
+    font-size: 12px;
+    font-style: italic;
+    margin-right: 60px;
+    margin-left: 160px;
+    text-align: right;
+}
+
+.persona_row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.column{
+    flex: 50%;
+}
+
+.persona{
+    width: 90%;
+    border: 1px solid blue;
+    height: 450px;
+}
+
+p{
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+.persona_p{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: smaller;
+    font-style: italic;
+}
+
+li{
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: left;
+}
+
+ol{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.observations{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 60px;
+    font-size: 14px;
+}
